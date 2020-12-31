@@ -1,0 +1,112 @@
+body {
+    background-color:#c7ccc4;
+}
+
+a{
+    color:#899db0;
+    text-decoration: none;
+}
+
+button{
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
+}
+
+.name{
+    font-family: 'Righteous', cursive;
+    font-size: 80px;
+    color: white;
+    text-decoration:none;
+    text-indent: 270px;
+}
+
+#firstname{
+    position: relative;
+    line-height:0.1;
+    font-size: 96px;
+    color: #f3e4de;/*#f3e4de;*/
+    line-height:0.1;
+    
+}
+
+#split{
+    border-style: none none solid none;
+    border-width: 20px;
+    border-color: #a69aab;/*#d2aeae;*/
+    line-height:0.1;
+    position: relative;
+    top: -67px;
+}
+#lastname{
+    position: relative;
+    top: -150px;
+    left: 186px;
+    color: #f3e4de;/*#bac6b3;*/
+    line-height:0.1;
+}
+
+
+.intro{
+    text-align: center;
+    font-family: 'Tangerine', cursive;
+    color: white;
+    font-size:60px;
+}
+
+.row{
+    margin: 0px;
+}
+
+.box {
+  padding: 100px, 50px, 100px, 50px;
+  float: left;
+  width: 33.3333%;
+}
+
+.box:hover .img__description {
+  visibility: visible;
+  opacity: 1;
+}
+.box:hover .img {
+    visibility: hidden;
+    opacity: 0;
+}
+
+
+.img{
+    visibility: visible;
+    opacity:1;
+    transition: opacity .2s visibility .2s;
+}
+
+.img__description {
+  position: relative;
+  top: -200px;
+  line-height: 9.3;
+  background-color:#c7ccc4;
+  color: white;
+  font-size:20px;
+  font-family: 'Jura', sans-serif;
+  text-align: center;
+  visibility: hidden;
+  opacity: 0;
+  line-height: 1px;
+
+  transition: visibility .2s;
+}
+
+.footer {
+  position: absolute;
+  left: 0;
+  top: 2600px;
+  width: 100%;
+  background-color: #aba2af;
+  color: white;
+  text-align: center;
+}
+
+
+
+
+

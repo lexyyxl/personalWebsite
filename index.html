@@ -1,0 +1,241 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css"
+        href="assets/styles/style.css">
+        <!--name font-->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Jura&family=Philosopher&family=Righteous&family=Tangerine&display=swap" rel="stylesheet">
+
+        <script src="https://kit.fontawesome.com/b29a42a8f6.js" crossorigin="anonymous"></script>
+    </head>
+    
+    <body>
+        
+        <div class = row>
+            <div class = "iconcol">
+                <p>Instagram</p>
+                <a target="_blank" href="https://www.instagram.com/lexy._.yxl/">
+                    <span style="font-size: 1.2em; color: white;">
+                      <i class="fa fa-instagram" aria-hidden="true"></i>
+                    </span>
+                </a>
+            </div>
+            <div class = "iconcol">
+                <p>Github</p>
+                <button onclick="copy('lexyyxl')">
+                    <span style="font-size: 1.2em; color: white;">
+                      <i class="fa fa-github" aria-hidden="true"></i>
+                    </span>
+                </button>
+            </div>
+            <div class = "iconcol">
+                <p>Linkedin</p>
+                <a target="_blank" href="https://www.linkedin.com/in/lexy-li/">
+                    <span style="font-size: 1.2em; color: white;">
+                      <i class="fa fa-linkedin" aria-hidden="true"></i>
+                    </span>
+                </a>
+            </div>
+            
+            
+            <div class = "iconcol">
+                <p>Youtube</p>
+                <a target="_blank" href="https://www.youtube.com/channel/UCo1-gzjhmXbrIRIleG74tnw">
+                    <span style="font-size: 1.2em; color: white;">
+                      <i class="fa fa-youtube" aria-hidden="true"></i>
+                    </span>
+                </a>
+            </div>
+            
+            
+            <div class = "iconcol">
+                <p>Email</p>
+                <button onclick="copy('lexyyxlpro@gmail.com')">
+                    <span style="font-size: 1.2em; color: white;">
+                      <i class="fa fa-envelope-square" aria-hidden="true"></i>
+                    </span>
+                </button>
+            </div>
+        </div>
+        
+        <div class = "name">
+            <p id = firstname>Lexy</p>
+            <p id = split> </p>
+            <p id = lastname>Li</p>
+        </div>
+        
+        
+        
+        <p class = "intro">Above the Noises</p>
+        
+        <div class = "imgrow">
+            <div class = "box">
+                <img class = "img" src = "./assets/img/hangzhou.jpg" style="width:100%">
+                <a class="img__description" href="https://space.bilibili.com/518418332">LIVE</a>
+            </div>
+            <div class = "box">
+                <img class = "img" src = "./assets/img/ponder.jpg" style="width:100%">
+                <a class="img__description">THINK</a>
+            </div>
+            <div class = "box">
+                <img class = "img" src = "./assets/img/snow.jpg" style="width:100%">
+                <a class="img__description" href="assets/pages/gallery.html">LOVE</a>
+            </div>
+        </div>
+        
+        
+        <p class = "moto">Serendipitous grapes grow on humble vines.</p>
+        <span style="font-size: 1.2em; color: #a69aab; ">
+          <i class="fas fa-leaf fa-3x" aria-hidden="true" id="rightleaf"></i>
+          <i class="fas fa-leaf fa-2x" aria-hidden="true" id="leftleaf"></i>
+        </span>
+        <div class="timeline">
+          <div class="container left first"><div class="content"><h2>Fall 2020</h2></div></div>
+          <div class="containerbutton"></div>
+          <div class="container left">
+            <div class="content">
+              <h2>Fall 2020</h2>
+                  <h3>Pintos operation system design | CS162: Operating Systems and System Programming</h3>
+                    <ul><li>Worked with three other students to complete an educational operation system--Pintos--throughout the semester.</li>
+                    <li>Extended the support for user programs such that the programs could read command-line arguments, make system calls(exit, halt, wait, practice, exec) and file operation system calls(create, remove, open, close, read, write, seek, tell, filesize). </li>
+                    <li>Improved the scheduler and synchronization primitives so that higher-priority threads always run before lower-priority threads based on threads' priority values.</li>
+                    <li>Implemented buffer cache, enabled file length extension with a block structure similar to Unix FFS file system, and supported the use of subdirectories. Added more syscalls(isdir, chdir, mkdir, readdir, inumber). </li></ul>
+                  <h3>CS61A Tutoring</h3>
+                    <ul><li>Back to the origin! "CS61A: The Structure and Interpretation of Computer Programs" is my very first coding class taken at UC Berkeley and it is absolutely one of my favorite classes. With great respect to Professor John DeNero, I was glad to work with him again to conduct remote intructions to over 1300 students during this hectic time of COVID-19. </li>
+                        <li>Led 5 weekly 30-minute-long small tutorials for a total of 30 students, walking through coding problems to accomodate online instructions. </li>
+                        <li>Held weekly 1.5-hour-long office hours; graded students' coding assignments and made comments to help them improve code compositions.</li>
+                        <li><a target="_blank" href="https://drive.google.com/drive/folders/1dzrV7AhU26ovqu0Qyn4jxKyTZBA8sh7t?usp=sharing">See slides here.</a> </li></ul>
+            </div>
+          </div>
+          <div class="containerbutton"></div>
+          <div class="container right">
+            <div class="content">
+              <h2>Summer 2020</h2>
+                  <h3>Ocean Wave Surface Simulation | CS 184: Computer Graphics</h3>
+                    <ul>
+                      <li>Build a mesh based on the physics behind spring systems, representing the flow of the ocean surface.</li>
+                      <li>Supported real-time wave rendering by summing up frequency curves using Gerstner Wave Functions to update point-mass positions.<a href="https://lexyyxl.github.io/CS184-final-proj/"> See final report here.</a></li>
+                      <li>Mapped ocean surface texture to the mesh by appling Phong shading and bumping techniques in OpenGL shader programs.<a href="https://youtu.be/wJVgFqxYnks"> See video here.</a></li>
+                    </ul>
+                  <h3>Ramen Cooking Show | JAPAN80: Japanese Culture</h3>
+                    <ul>
+                        <li>Highlight of the summer! I worked with three other students to make an online ramen cooking show for the class. Even with COVID-19 stopping us from meeting in person, we still made 10+ times of rehearsals through zoom calls. On our final presentation day, the clock counted down to zero right when my group finished our last line and we were voted #1 of all groups. That's the power of practice!</li>
+                        <li>Wrote the script, guided other members to shoot, and edited the video.<a href="https://youtu.be/f_Ihvwvc7gU"> See our video here.</a></li>
+                        <li>Introduced the instant ramen and its global trend.<a href="https://docs.google.com/presentation/d/15ZJIJlZEW6jTDOgs-7qD6oSbm7wpDDRoUOv1OVXJ06E/edit?usp=sharing"> See slides here.</a></li>
+                    </ul>
+                  <h3>LINGUIS188: Linguistic Data</h3>
+                    <ul>
+                      <li>My first time playing with Linguistic Data and making data analysis with it.</li>
+                      <li>Looked into Age of Word Acquisition; focused on the subjectivity and polarity of each word and the average age of acquiring it. A small conclusion: As our age increases, the proportion of sentimental words learned decreases in the process of word acquisition.<a href="assets/src/ling188.pdf"> See more here. </a></li>
+                      <li>Looking back, some of the plots could definitely be made better looking, but it was still an interesting experience for me.</li>
+                    </ul>
+            </div>
+          </div>
+          <div class="containerbutton"></div>
+          <div class="container left">
+            <div class="content">
+              <h2>Spring 2020</h2>
+                  <h3>File Sharing System | CS161: Computer Security</h3>
+                    <ul><li>Used GoLang to develop a file storing and sharing system between different users while ensured user computer security with AES keys, Digital Signatures, MAC, Hash, and etc. </li></ul>
+                  <h3>Cannabis Research | Undergraduate Research Apprentice Program</h3>
+                    <ul><li>Led by a UC Berkeley Haas professor and UC Davis graduate students, and collaborated with two other group members to conduct a text research on over 15000 Cannabis products.</li>
+                      <li>Analyzed U.S. cannabis retailing text data by hand-coding over 5000 Cannabis product descriptions and devising a coding scheme to extract product features from the texts. Features included specific scenarios, medical effects, intoxication, user instructions, and etc.</li>
+                      <li>Utilized doc2vec and Tensorflow to customize better embeddings; used the embeddings to trained NLP models that performed binary classification on each feature.</li>
+                      <li>Utilized Jupiter Notebook to record the process of exploring model factors and presented the results to the group mentor.</li></ul>
+                  <h3>Businet iOS App | iOS Application Development</h3>
+                    <ul><li>Used Xcode and firebase to develop an iOS application -- BusiNet. BusiNet is an advanced business application that helps users integrate their job application status, ease across-team collaborations and keep track of their connections at different companies.  </li></ul>
+                  <h3>DATA100 Tutoring | EECS Department</h3>
+                  <ul><li>As the classes went online, I turned to lead online tutoring sessions this semester! It was great fun for me to break down big problems into small pieces and walk over the problems step by step over the slides. <a target="_blank" href="https://docs.google.com/presentation/d/1L6LBNl9vw0-nDnTSpzyrfkIjeau4me61WSgAPRzrv1Q/edit?usp=sharing">See slides here.</a> </li></ul>
+                  <h3>Campaign Co-chair | Associated Students UC Office of Rex Zhang</h3>
+                  <ul><li>Responsible for the campaign event marketing across different social media platforms such as instagrams, Facebook, and WeChat. </li>
+                      <li>Participated in weekly 3-hour meetings to discuss plarform contents and campaign plans with other chairs.</li></ul>
+                  <h3>Internal Committee Member | TOPPA </h3>
+                    <ul><li>Toppa is a non-profit organization founded in Google, aspired to unlock the full potential of the East Asian community. Toppa @ Berkeley is its first university chapter. </li>
+                      <li>Participated in Google’s Developer Student Club event of NLP workshop, and used Dialogflow to create a voice-controlled virtual assistant model, MoodBuddy, that chats with and helps depressed people.</li></ul>
+            </div>
+          </div>
+          <div class="containerbutton"></div>
+          <div class="container right">
+            <div class="content">
+              <h2>Fall 2019</h2>
+                  <h3>Solving an NP-hard STAH Problem | CS 170: Efficient Algorithms and Intractable Problems</h3>
+                  <ul><li>Aimed to solve “Sending the TAs Home” problem which reduces to the classical Traveling Salesman Problem.</li>
+                      <li>Solutions attempted included a greedy search, linear programming with cvxpy, and a randomized iterative search.</li>
+                      <li>Used Google Cloud Free credit - 18 VMs with 1 vCPU and 3GB of RAM( ∼ 75 hours per VM).</li></ul>
+                  <h3>The Pacman Projects | CS 188: Introduction to Artificial Intelligence</h3>
+                  <ul><li>Applied Search, Reinforcement Learning, Bayes Nets and Hidden Markov Models into the game Pacman code skeleton to find optimal routes for Pacman, ensuring Pacman eat food pallets and escape from ghosts.</li></ul>
+                  <h3> Classification of Ham/Spam Emails | DATA 100: Principles & Techniques of Data Science</h3>
+                  <ul><li>Trained a binary classification model based on the database of Ham/Spam emails.</li>
+                      <li>Employed Python libraries including Numpy, Pandas, Seaborn, Scipy, SKlearn, and Matplotlib to train a model that detected spam emails; Model achieved over 92% correctness.</li>
+                      <li>Model features included forward/reply tags, punctuation types and counts, specific words in the content, title structure, and html links.</li></ul>
+            </div>
+          </div>
+          <div class="containerbutton"></div>
+          <div class="container left">
+            <div class="content">
+             <h2>Summer 2019</h2>
+                  <h3>French R1B: English Composition in Connection with the Reading of Literature</h3>
+                  <ul><li>I had great fun learning and watching New Wave films. A crazy summer as it was, I watched over 20 movies, most of which were black and white, and in French. Looking back, Breathless, And God Created Women, Lola Montes, Mon Oncle, and Les Diaboliques had all left deep impression in me. <a href="assets/src/frenchr1b.pdf">Here is my analysis for Purple Noon.</a></li></ul>
+              <h2>Spring 2019</h2>
+                  <h3>Build-Your-Own-World game | CS61B: Data Structures</h3>
+                    <ul><li>Created a 2D tile-based world exploration engine using java with StdDraw to render a limited overhead perspective for users to walk in this world and collect keys.</li>
+                        <li>This game incorporated randomness and user interaction by allowing the users to enter seeds and use keyboards to exit and save.</li> <a href="https://www.youtube.com/watch?v=GQ0xoXn7rWM">A little demo here.</a></ul>
+                  <h3>EE16A: Designing Information Devices and Systems</h3>
+                  <ul><li>Meant to keep it as I went from lower 30% in my first midterm to an A+ at the end of the semester. Practice!</li></ul>
+                  <h3>Marketing Chair | T.I.n.Y Berkeley Chinese Theater Group</h3>
+                  <ul><li>Led a marketing team of over 10 members to promote the group’s grand showcase and weekly events.</li>
+                      <li>Created theme posts to engage with future audiences while introducing our play’s story background and the cast. Adopted a long-image post design tool, drafted and published more than 10 well-embellished articles on social media for promotion purpose, with an average of 500 reviews in campus scope.</li>
+                      <li>Coordinated with sponsors and designed tailored advertisements for them, which received over 1020 views on the first day in campus scope.</li></ul>
+            </div>
+          </div>
+          <div class="containerbutton"></div>
+          <div class="container right">
+            <div class="content">
+              <h2>Fall 2018</h2>
+                <h3>Ants | CS61A: The Structure and Interpretation of Computer Programs</h3>
+                <ul><li>Applied Object Oriented Programming to developing Ants vs. Bees game.</li></ul>
+                <h3>Does Money buy happiness? | STAT20: Introduction to Probability and Statistics</h3>
+                <ul><li>Applied statistic strategies to analyze the correlation between happiness, income-relevant, and non-income relevant factors.<a href="assets/src/stat20.pdf"> See more here. </a></li></ul>
+            </div>
+          </div>
+          <div class="containerbutton"></div>
+          <div class="container left">
+            <div class="content">
+              <h2>~ 2018</h2>
+                <h3>Volunteer | GYMI Summer Program</h3>
+                <ul><li>Volunteered as a high school teacher in Anji, China for 2 weeks.</li>
+                    <li>Prepared course materials in advance and taught Science in Life to 40 students.</li>
+                    <li>Paired with three local students, exchanged personal stories and backgrounds, and provided pertinent guidance for them.</li></ul>
+                <h3>Lobby Manager Assistant | Bank of China Internship Program</h3>
+                <ul><li>Guided customers to use smart counters -- self-service machines that could take care of basic services such as changing phone numbers, creating new accounts, and purchasing foreign currencies.</li>
+                    <li>Promoted and offered instructions on the use of bank's phone application.</li>
+                    <li>Embellished the public board to promote currently available investment products.</li></ul>
+                <h3>Research on local bus stop</h3>
+                <ul><li>I took buses from the same stop every school day for almost six years. Every morning passengers had to stand in the vehicle lane instead of the sidewalk to wait for buses because of crowding from private cars and tourist buses. I did research to dig deeper into the reasons and find appropriate solutions. I then wrote a formal traffic survey report.</li>
+                <li>I submitted my report to local government, proposing solutions for making bus stops safer and more efficient. An official from The Department of Transportation called me in person to thank me for my report, tell me their solutions, and even discuss the problems they saw with me.</li></ul>
+                <h3>Chief Financial Officer | Chief Financial Officer</h3>
+                <ul><li>Managed finances for the first media organization designed for high school students in Hangzhou. We intended to provide a unique and convenient way for high school students to obtain relevant news and activities.</li>
+                    <li>Wrote articles about outstanding students with special hobbies or excellent achievements and interviewed college students to inform high schoolers on college life.</li>
+                    <li>Found sponsorship for our activities and helped organize Enlighten, a workshop for different student organizations to communicate and collaborate with each other.</li></ul>
+                <h3>Organizer and Session Chair | Hangzhou Student Forum</h3>
+                    <ul><li>Represented my high school to share student life and club culture during this student-run interschool forum; Invited student leaders from over 15 high schools to meet, share their work experience and solv common problems together.</li>
+                        <li>In my session, I challenged the participants to discover defects in club management and provided advice on organizing large events.</li></ul>
+                <h3>Organization Chair | Hangzhou High School Student Council</h3>
+                <ul><li>Planned the flea market and Cherry Blossoms Fair by inviting local schools, tallying the number of attendees, inviting alumni speakers, making maps of the campus, assigning staff members to different tasks, and writing advertisements.</li>
+                    <li>Arranged activities during the annual club showcase by preparing and distributing schedules and helping with stage decoration and publicity.</li>
+                    <li>Developed and implemented an approved evaluation system in order to more effectively help clubs with their growth.</li></ul>
+                <h3>President | Hangzhou High School Lumiere Movie Club</h3>
+                <ul><li>Designed content for the club, invited college students to teach us about the film industry, and screened and analyzed films with the club.</li>
+                    <li>Made and sold posters and postcards to finance the club.</li>
+                    <li>Designed movie games for visitors to our school during the open day.</li></ul>
+            </div>
+          </div>
+        </div>
+        
+        <div class="footer">
+            <p>&copy; 2020 Lexy Li<p>
+        </div>
+    </body>
+    <script src="assets/js/script.js"></script>
+</html>
