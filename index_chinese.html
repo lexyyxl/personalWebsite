@@ -1,0 +1,293 @@
+<!doctype html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <link rel="stylesheet" type="text/css"
+        href="assets/styles/style.css">
+        <!--name font-->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Jura&family=Philosopher&family=Righteous&family=Tangerine&display=swap" rel="stylesheet">
+
+        <script src="https://kit.fontawesome.com/b29a42a8f6.js" crossorigin="anonymous"></script>
+    </head>
+    
+    <body>
+        
+        <div class = row>
+            <div class = "iconcol">
+                <p>Instagram</p>
+                <a target="_blank" href="https://www.instagram.com/lexy._.yxl/">
+                    <span style="font-size: 1.2em; color: white;">
+                      <i class="fa fa-instagram" aria-hidden="true"></i>
+                    </span>
+                </a>
+            </div>
+            <div class = "iconcol">
+                <p>Github</p>
+                <button onclick="copy('lexyyxl')">
+                    <span style="font-size: 1.2em; color: white;">
+                      <i class="fa fa-github" aria-hidden="true"></i>
+                    </span>
+                </button>
+            </div>
+            <div class = "iconcol">
+                <p>Linkedin</p>
+                <a target="_blank" href="https://www.linkedin.com/in/lexy-li/">
+                    <span style="font-size: 1.2em; color: white;">
+                      <i class="fa fa-linkedin" aria-hidden="true"></i>
+                    </span>
+                </a>
+            </div>
+            
+            
+            <div class = "iconcol">
+                <p>Youtube</p>
+                <a target="_blank" href="https://www.youtube.com/channel/UCo1-gzjhmXbrIRIleG74tnw">
+                    <span style="font-size: 1.2em; color: white;">
+                      <i class="fa fa-youtube" aria-hidden="true"></i>
+                    </span>
+                </a>
+            </div>
+            
+            
+            <div class = "iconcol">
+                <p>Email</p>
+                <button onclick="copy('lexyyxlpro@gmail.com')">
+                    <span style="font-size: 1.2em; color: white;">
+                      <i class="fa fa-envelope-square" aria-hidden="true"></i>
+                    </span>
+                </button>
+            </div>
+        </div>
+        
+        <div class = "name">
+            <p id = firstname>Lexy</p>
+            <p id = split> </p>
+            <p id = lastname>Li</p>
+        </div>
+        
+        
+        <p class = "intro">Above the Noises</p>
+        
+        <div class = "imgrow">
+            <div class = "box">
+                <img class = "img" src = "./assets/img/hangzhou.jpg" style="width:100%">
+                <a class="img__description" href="https://space.bilibili.com/518418332">LIVE</a>
+            </div>
+            <div class = "box">
+                <img class = "img" src = "./assets/img/ponder.jpg" style="width:100%">
+                <a class="img__description">THINK</a>
+            </div>
+            <div class = "box">
+                <img class = "img" src = "./assets/img/snow.jpg" style="width:100%">
+                <a class="img__description" href="assets/pages/gallery.html">LOVE</a>
+            </div>
+        </div>
+        
+        <p class = "moto">Serendipitous grapes grow on humble vines.</p>
+        <span style="font-size: 1.2em; color: #a69aab; ">
+          <i class="fas fa-leaf fa-3x" aria-hidden="true" id="rightleaf"></i>
+          <i class="fas fa-leaf fa-2x" aria-hidden="true" id="leftleaf"></i>
+        </span>
+        
+        <div class="timeline">
+          <div class="container left first"><div class="content"><h2>Fall 2020</h2></div></div>
+       
+       
+       <div class="containerbutton"></div>
+         <div class="container right">
+           <div class="content">
+             <h2>Spring 2021</h2>
+                 <h3>团队主管 | 加州大学伯克利分校联合学生会人事首席团队</h3>
+                   <ul><li>协助人事首席监管实习项目，履行人事职责，协调政党活动冲突</li>
+                       <li>主办改善议员团队管理的讲座，制作PPT，针对疫情期间远程管理团队的话题进行培训 </li></ul>
+                 <h3>“数据工程”课程助教|加州大学电子工程系</h3>
+                   <ul><li>协助Aditya Parameswaran和Joe Hellerstein两位教授完善该课程的讲授 </li>
+                       <li>为约200位学生设计课程作业、项目并对上交成果进行量化分析与打分；作业包括运用SQL对电影数据库进行分析，使用String Cleaning清理数据并用Window Functions完善表格。</li>
+                       <li>每周开放1小时学生问答时间，解答学生疑惑并指导作业</li>
+                   </ul>
+                   
+                   <h3>智能化医院系统设计 | 加州大学伯克利分校本科研究项目</h3>
+                     <ul><li>协助Kalay Yehuda教授为南加州的心脏导管实验室设计智能建筑管理系统。该系统通过LED可见光通信来探测医院用户的位置和活动，帮助医生和护士进行决策，以实现资源分配、空间部署、员工满意率的最优化</li>
+                         <li>运用Python模拟医院日常运行，设计算法来搜寻最优决策</li>
+                     </ul>
+                     
+                     <h3>模型训练 | CS189: Machine Learning</h3>
+                       <ul><li>所有训练都仅限于Support Vector Machine，模型使用Python SKlearn创建
+                           </li>
+                           
+                           <li>CIFAR-10 图像数据:<br>
+                               - 预处理: PCA(3 &#10005 32 &#10005 32 RGB 数据) + Histogram of Oriented Gradients(HOG) feature + Standard Scaling
+                              <br>
+                               - 交叉验证: 样本容量和模型参数C
+                              <br>
+                               - Expected Accuracy: 18%, Actual Accuracy:48.7%, Rank: 138/669
+                       
+                       
+                          </li>
+                           <li>广告邮件:<br>
+                               - 预处理: Bag of words(html, fwd, re, etc.), Counts of punctuations, etc.
+                              <br>
+                              - 交叉验证: 样本容量和模型参数C
+                             <br>
+                               - Expected Accuracy: 76%, Actual Accuracy:84.12%, Rank: 77/673
+                           
+                           </li>
+                           <li>MNIST手写数字:<br>
+                               - 交叉验证: 样本容量和模型参数C
+                              <br>
+                               - Expected Accuracy: 84%, Actual Accuracy:94.66%, Rank: 281/672
+                           </li>
+                       </ul>
+                       
+                       <h3>自然语言模型训练 | INFO159: Natural Language Processing</h3>
+                         <ul>
+                             <li>影评情感分析<br>
+                                 <br>
+                                 - 85 Features: Bag of Words, Counts of Punctuations(?!*$...), Second and Third Person Pronouns, embedded ratings, etc.
+                                <br>
+                                 - Accuracy: 77.6%
+                            </li>
+                         </ul>
+           </div>
+         </div>
+         
+         
+          <div class="containerbutton"></div>
+          <div class="container left">
+            <div class="content">
+              <h2>Fall 2020</h2>
+                  <h3>PintOS 运行系统设计 | CS162: Operating Systems and System Programming</h3>
+                    <ul>
+                    <li>扩展使用者程序：支持命令行读取，系统调用(exit, halt, wait, practice, exec)和文件系统调用(create, remove, open, close, read, write, seek, tell, filesize) </li>
+                    <li>完善调度程序和同步原语（synchronization primitives），使得线程（thread）有高低优先度区分</li>
+                    <li>完善缓冲缓存，使用Unix FFS文件系统架构完善文件长度扩展，确保子目录的正常使用(isdir, chdir, mkdir, readdir, inumber). </li></ul>
+                  <h3>CS61A 助教</h3>
+                    <ul><li>回到原点！<i>CS61A: The Structure and Interpretation of Computer Programs</i> 是我在大学上的第一门编程课程也是我最喜欢的课之一。今年我将协助John DeNero教授对1300位学生进行课程教学 </li>
+                        <li>每周主持5个30分钟的讨论会，为30个学生讲解考试题目，复习课程内容 </li>
+                        <li>每周开放1.5个小时的答疑时间；批改学生的编程作业并给出反馈，指导学生们写出干净整洁的代码</li>
+                        <li><a target="_blank" href="https://drive.google.com/drive/folders/1dzrV7AhU26ovqu0Qyn4jxKyTZBA8sh7t?usp=sharing">我的讲课PPT</a> </li></ul>
+            </div>
+          </div>
+          
+          
+          <div class="containerbutton"></div>
+          <div class="container right">
+            <div class="content">
+              <h2>Summer 2020</h2>
+                  <h3>海洋平面模拟 | CS 184: Computer Graphics</h3>
+                    <ul>
+                      <li>创建弹簧网格结构进行海洋平面成像</li>
+                      <li>运用Gerstner Wave Functions更新各点位置，支持实时波浪运动成像<a href="https://lexyyxl.github.io/CS184-final-proj/"> 最终报告</a></li>
+                      <li>在OpenGL shader中通过纹理映射给网格加入海洋纹理，其中包括冯氏着色（Phong shading）和 bumping.<a href="https://youtu.be/wJVgFqxYnks"> 讲解视频.</a></li>
+                    </ul>
+                  <h3>词语极性与识词年龄的关系探究|加州大学伯克利分校 语言学 课程项目</h3>
+                    <ul>
+                      <li>在该项目中，我使用了AoA（Age of Acquisition）实验数据。数据表中记录了英语单词、识词率、实验对象的识词平均年龄、年龄方差等</li>
+                      <li>在Python中使用TextBlob给所有词组计算了极性分数（Polarity和Subjectivity），探究发现随着年龄增长，所学到的词汇中极性更大的词语占比更小。最终我们对探究成果进行了视觉化展示并建立了线性模型<a href="assets/src/ling188.pdf"> See more here. </a></li>
+                    </ul>
+            </div>
+          </div>
+          <div class="containerbutton"></div>
+          <div class="container left">
+            <div class="content">
+              <h2>Spring 2020</h2>
+                  <h3>文件分享系统设计| 加州大学伯克利分校 网络安全 课程应用</h3>
+                    <ul><li>使用了GoLang语言设计并开发了一个文件共享系统，让用户可以安全地上传、下载、修改、分享、以及撤回分享文件。系统应用了 AES keys, Digital Signatures, MAC, Hash等网络安全知识</li></ul>
+                  <h3>大麻产品描述自然语言分析|加州大学伯克利分校 本科研究项目</h3>
+                    <ul><li>该项目旨在分析美国的大麻零售情况，并应用机器学习和自然语言处理，进一步研究大麻零售商的产品描述特征</li>
+                      <li>在项目中，我处理了近2000条产品描述，并制定了一个编码方案，将产品描述转化为26个特征编码，其中包括场景描述，医用效果，使用指导，兴奋作用等</li>
+                      <li>我们将使用Tensorflow训练Embeddings，并最终训练自然语言处理模型，对每一个特征编码进行预测</li>
+                    </ul>
+                  <h3>Businet iOS App | iOS开发项目</h3>
+                    <ul><li>使用Xcode和firebase开发了一个iOS软件 —— BusiNet. BusiNet帮助用户记录并追踪工作申请情况，使跨团队合作变得更加轻松有效</li></ul>
+                  <h3>DATA100助教 | EECS Department</h3>
+                  <ul><li> <a target="_blank" href="https://docs.google.com/presentation/d/1L6LBNl9vw0-nDnTSpzyrfkIjeau4me61WSgAPRzrv1Q/edit?usp=sharing">See slides here.</a> </li></ul>
+                  <h3>竞选团队主席 | 加州大学联合学生会Rex Zhang议员团队</h3>
+                  <ul><li>负责竞选活动的宣传和市场调查 </li>
+                  <h3>内部委员会成员 | TOPPA </h3>
+                    <ul><li>Toppa是一个在谷歌创立的非盈利组织，致力于发展东亚群体的潜力；伯克利是Toppa的第一个大学分部</li>
+                      <li>参与了谷歌举办的NLP workshop，使用Dialogflow制作了一个能引导抑郁症患者的聊天助手MoodBuddy</li></ul>
+            </div>
+          </div>
+          <div class="containerbutton"></div>
+          <div class="container right">
+            <div class="content">
+              <h2>Fall 2019</h2>
+                  <h3>探究NP-hard 问题（送同学回家）解决方案| 加州大学伯克利分校 算法 课程项目</h3>
+                  <ul><li>“送同学回家问题” 约化到旅行商问题，都是NP-hard难度。我们要用自己的程序给超过500个同类型问题（每个问题有200个以内的地点及100个以内的同学）找到较优的解决方案</li>
+                      <li>我们完成了贪心搜索, 并尝试使用cvxpy线性规划进一步优化解决方案，最终我们决定使用随机迭代搜索来产生解决方案</li>
+                      <li>在项目里，我们共运用了 18个 Google Cloud VM（含有1 vCPU 和 3GB RAM）( 每个VM运行了约 75 小时)</li></ul>
+                  <h3>吃豆豆小游戏最佳解法 | 加州大学伯克利分校 人工智能 课程项目</h3>
+                  <ul><li>使用了搜索、强化学习、Minimax、Bayes Nets 和 Hidden Markov Models 等知识，帮助小精灵设计最佳路线，吃完豆豆并躲避怪物</li></ul>
+                  <h3>  广告邮件的识别| 加州大学伯克利分校 数据科学 课程应用</h3>
+                  <ul><li>在Jupyter Notebook上操作了大量的邮件数据，使用了Numpy, Pandas, Seaborn, Scipy, SKlearn, 和Matplotlib等Python扩展包</li>
+                      <li>通过数据挖掘和机器学习正确识别了数据库中超过80%的广告邮件，使用的数据特征包括邮件类型（回复/转发）、标点符号统计、关键词、标题结构、html链接等</li>
+            </div>
+          </div>
+          <div class="containerbutton"></div>
+          <div class="container left">
+            <div class="content">
+             <h2>Summer 2019</h2>
+                  <h3>French R1B: English Composition in Connection with the Reading of Literature</h3>
+                  <ul><li>写了一片电影分析论文<a href="assets/src/frenchr1b.pdf">Here is my analysis for the movie <i>Purple Noon</i>.</a></li></ul>
+              <h2>Spring 2019</h2>
+                  <h3>Build-Your-Own-World 游戏开发| 加州大学伯克利分校 数据结构 课程项目</h3>
+                    <ul><li>使用了 java StdDraw 构建了一个2D世界，玩家可以通过控制键盘在迷宫中行走并找到钥匙</li>
+                        <li><a href="https://www.youtube.com/watch?v=GQ0xoXn7rWM">A little demo here.</a></li> </ul>
+                  <h3>传媒部部长 | T.I.n.Y 伯克利中文戏剧社</h3>
+                  <ul><li>带领一个10+人团队对剧社活动进行宣传推广；运行社团的微信公众号，使用秀米编辑宣传推文</li>
+                      <li>构思主题推送，融入大戏故事背景，并与观众互动；每篇推送在校园内收获500+浏览量</li>
+                      <li>与赞助商合作，推出广告宣传，在推出第一天收获1020浏览量</li></ul>
+            </div>
+          </div>
+          <div class="containerbutton"></div>
+          <div class="container right">
+            <div class="content">
+              <h2>Fall 2018</h2>
+                <h3>Ants | CS61A: The Structure and Interpretation of Computer Programs</h3>
+                <ul><li>编辑了一个蚂蚁大战蜜蜂的游戏</li></ul>
+                <h3>钱能买到幸福吗？ | STAT20: Introduction to Probability and Statistics</h3>
+                <ul><li>运用统计学知识分析了幸福指数和收入相关因素、收入无关因素之间的联系<a href="assets/src/stat20.pdf"> See more here. </a></li></ul>
+            </div>
+          </div>
+          <div class="containerbutton"></div>
+          <div class="container left">
+            <div class="content">
+              <h2>~ 2018</h2>
+                <h3>志愿教师 | GYMI暑期支教</h3>
+                <ul><li>在安吉的一个小学担任支教教师，向40位中学生教授了为期两周的“生活中的科学实验”一课</li>
+                    <li>和当地学生配对，点对点分享故事，进行情绪指导</li></ul>
+                <h3>大堂经理助理 | 中国银行实习项目</h3>
+                <ul><li>引导顾客使用智能柜台，指导顾客使用手机App</li>
+                    <li>设计并制作银行展板，分享理财产品</li></ul>
+                <h3>本地公交车站问题研究 | 杭州 社会问题探索</h3>
+                <ul><li>发现家附近的公交车站经常会有司机在马路中间停靠的问题。所以我着重研究了该现象的产生原因及问题解决方</li>
+                <li>在将我的发现和报告提交到了本地政府网站后，当地交通局警官和我取得了电话联系，他在电话上和我对此问题进行了讨论，并分享了他们收到报告后的解决措施</li></ul>
+                <h3>首席 | 杭行 Voyage Media</h3>
+                <ul><li>杭行是杭州第一个高中生媒体，我们旨在向社会提供一个独特的高中生视角，发现身边有特别的爱好和才能的高中生，为高中生群体发声</li>
+                    <li>主要负责管理团队资金，为Enlighten（杭行主办的线下社团交流会）联系场地和赞助商</li>
+                </ul>
+                <h3>分会场主席 | 杭州高中生交流论坛</h3>
+                    <ul><li>杭州高中生交流论坛是由杭州高级中学发起，前八所高校联合举办，面向所有高中的校际联办交流峰会。在我的分会场，我代领所有学生代表讨论了社团管理经验、学生活动的举办经验、常见问题的解决办法等</li></ul>
+                <h3>社团部部长 | 杭州高级中学学生会</h3>
+                <ul><li>组织了红五月跳蚤市场和樱花文会的大小事项，其中包括场地安排，工作人员培训及调动，邀请校友和外校合作社团</li>
+                    <li>编写了社团管理制度，量化了社团评星制度</li></ul>
+                <h3>社长 | 杭州高级中学电影社</h3>
+                <ul><li>邀请大学电影学生讲解电影技术</li>
+                    <li>设计电影相关的游戏、制作电影明信片在社团活动日进行展出与售卖</li>
+                </ul>
+            </div>
+          </div>
+        </div>
+        
+
+
+        
+        
+        <div class="footer">
+            <p>&copy; 2020 Lexy Li<p>
+        </div>
+    </body>
+    <script src="assets/js/script.js"></script>
+</html>
